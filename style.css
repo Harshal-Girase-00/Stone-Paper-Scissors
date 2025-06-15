@@ -142,7 +142,7 @@
 }
 }
 
-@media screen and (max-width:600px) and (orientation: landscape){
+@media screen and (max-height:400px) and (orientation: landscape){
    h1{
     height: 2.5rem;
     background-color: black;

@@ -6,9 +6,12 @@
  }
 
  html,body{
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  height: 100vh;
  }
- 
+
  h1{
     height: 4rem;
     background-color: #081b31;
@@ -146,7 +149,7 @@
 }
 }
 
-@media screen and (max-width:980px)  and (orientation: landscape){
+@media screen  and (orientation: landscape) and (max-width:980px) {
    h1{
     height: 2.5rem;
     background-color: black;

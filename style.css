@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  height: 100svh;
+  height: 100vh;
  }
 
  h1{
@@ -81,7 +81,7 @@
 }
 
 
-@media screen and (orientation: portrait) and(max-width: 600px){
+@media (max-width: 600px){
    h1{
     height: 4rem;
     background-color: #081b31;
@@ -149,7 +149,7 @@
 }
 }
 
-@media screen  and (orientation: landscape) and (max-height:500px) {
+@media screen  and  (orientation: landscape) and (max-width:980px) and (min-width:400px){
    h1{
     height: 2.5rem;
     background-color: black;

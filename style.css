@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
  }
 
+ html,body{
+  overflow: hidden;
+ }
+ 
  h1{
     height: 4rem;
     background-color: #081b31;

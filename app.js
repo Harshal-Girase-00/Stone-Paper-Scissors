@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let userScore=0;
 let compScore=0;
 
@@ -127,6 +126,5 @@ choices.forEach((choice) =>{
     const userChoice=choice.getAttribute("id");
     // console.log("choice was ",userChoice);
     playGame(userChoice);
-  })
->>>>>>> 954bb63 (add responsive design)
+  });
 });
